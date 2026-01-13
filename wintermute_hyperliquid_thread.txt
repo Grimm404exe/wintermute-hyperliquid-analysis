@@ -1,0 +1,134 @@
+WINTERMUTE'S HYPERLIQUID MARKET MAKING OPERATION
+
+I reverse engineered Wintermute's quoting strategy on Hyperliquid.
+
+Here's what I found 🧵
+
+---
+
+1/ THE SETUP
+
+Wintermute runs a ~$95M operation on Hyperliquid:
+- $57.8M perp account
+- $37M+ in spot holdings
+- 1,732 resting orders
+- 76 markets quoted
+- $199M total quoted notional
+
+Wallet: 0xecb63caa47c7c4e77f60f1ce858cf28dc2b82b00
+
+---
+
+2/ QUOTING OVERVIEW
+
+Total bid notional: $101.7M (51%)
+Total ask notional: $97.2M (49%)
+
+Near-perfect symmetry. This is textbook professional market making.
+
+---
+
+3/ TOP MARKETS BY QUOTED NOTIONAL
+
+BTC:  $78.1M  (105 orders, 0.96 bps spread)
+ETH:  $32.0M  (103 orders, 2.19 bps spread)
+SOL:  $14.1M  (54 orders, 1.39 bps spread)
+HYPE: $9.7M   (27 orders, 23.8 bps spread)
+XRP:  $9.6M   (58 orders, 8.07 bps spread)
+DOGE: $9.1M   (38 orders, 4.18 bps spread)
+
+---
+
+4/ THE TIERED SIZE STRUCTURE
+
+Wintermute uses ~11 size tiers per market with a consistent 2.5-2.8x multiplier between tiers.
+
+Smaller sizes near mid with tight spreads.
+Larger sizes further out with wider spreads.
+
+---
+
+5/ BTC QUOTING LADDER
+
+Distance   Size      Notional
+0.001%     0.05 BTC  $4.7K
+0.003%     0.11 BTC  $10.3K
+0.010%     0.37 BTC  $34.6K
+0.030%     2.67 BTC  $250K
+0.080%     13.4 BTC  $1.25M
+0.200%     27.5 BTC  $2.57M
+
+---
+
+6/ SPREAD ANALYSIS
+
+Large cap (BTC, ETH): 1.6 bps avg spread
+Mid cap (SOL, XRP, etc): 8.2 bps avg spread
+Small cap: 45 bps avg spread
+
+Tighter spreads = more volume expected
+Wider spreads = adverse selection protection
+
+---
+
+7/ INVENTORY POSITION
+
+Total perp positions: 83 markets
+Net exposure: $177M SHORT
+
+This is accumulated inventory from market making - NOT a directional bet.
+
+They're quoting across venues and inventory accumulates where the flow is. Offset on CEXs.
+
+---
+
+8/ TOP POSITIONS (accumulated inventory)
+
+ETH:  $88.3M SHORT
+SOL:  $22.2M SHORT
+HYPE: $21.2M SHORT
+XRP:  $8.8M SHORT
+DOGE: $5.7M SHORT
+BTC:  $2.0M LONG
+
+---
+
+9/ SPOT HOLDINGS
+
+UBTC: $9.5M
+USDC: $9.1M
+UETH: $6.4M
+HYPE: $4.2M
+USDH: $2.2M
+USOL: $2.2M
+USDT: $1.7M
+
+Total spot: ~$37M
+
+---
+
+10/ THE STRATEGY
+
+This is consistent with Avellaneda-Stoikov optimal market making:
+
+✓ Inventory-aware quoting
+✓ Symmetric bid/ask exposure
+✓ Tiered size structure
+✓ Spreads scale with adverse selection risk
+
+---
+
+11/ KEY TAKEAWAYS
+
+1. Professional MMs run balanced books
+2. Size scales with distance from mid
+3. Spread scales inversely with volume
+4. Inventory accumulates - they hedge elsewhere
+5. ~$95M total capital deployed on Hyperliquid
+
+---
+
+Data source: Hyperliquid public API
+Analysis: January 2026
+
+Full data + charts: github.com/0xLoris/wintermute-hyperliquid-analysis
